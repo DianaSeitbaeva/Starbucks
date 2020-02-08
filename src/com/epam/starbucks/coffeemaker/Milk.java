@@ -1,8 +1,8 @@
-package com.epam.starbucks.coffeeMaker;
+package com.epam.starbucks.coffeemaker;
 
 import java.util.Scanner;
 
-public class milk {
+public class Milk {
 
     public void milkChoose(){
     System.out.println("Do you need milk? ");

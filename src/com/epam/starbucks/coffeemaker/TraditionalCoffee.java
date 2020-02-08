@@ -1,10 +1,10 @@
-package com.epam.starbucks.coffeeMaker;
+package com.epam.starbucks.coffeemaker;
 import java.util.Scanner;
 
-public class traditionalCoffee {
+public class TraditionalCoffee {
 
     public void traditionalCoffeeBrew(){
-        new bean().beanBrew();
+        new Bean().beanBrew();
         System.out.println("Please choose coffee from menu: ");
         System.out.println("1 - Coffee Pike");
         System.out.println("2 - Coffee pure-over");
@@ -27,6 +27,6 @@ public class traditionalCoffee {
             default:
                 System.out.println("Please try again!");
         }
-        new milk().milkChoose();
+        new Milk().milkChoose();
     }
 }

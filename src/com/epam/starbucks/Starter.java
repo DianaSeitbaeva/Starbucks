@@ -1,10 +1,10 @@
 package com.epam.starbucks;
 
-import com.epam.starbucks.coffeeMaker.*;
+import com.epam.starbucks.coffeemaker.*;
 
 import java.util.Scanner;
 
-public class starter {
+public class Starter {
     public static void main(String[] args) {
         System.out.println("Hello and welcome to Starbucks! Please choose your order: ");
         System.out.println("1 - Traditional coffee");
@@ -16,19 +16,19 @@ public class starter {
         int s = scanner.nextInt();
         switch (s) {
             case (1):
-                new traditionalCoffee().traditionalCoffeeBrew();
+                new TraditionalCoffee().traditionalCoffeeBrew();
                 break;
             case (2):
-                new espressoBase().espressoBaseBrew();
+                new EspressoBase().espressoBaseBrew();
                 break;
             case (3):
-                new hotChocolate().hotChocolateBrew();
+                new HotChocolate().hotChocolateBrew();
                 break;
             case (4):
-                new frappuccinoWithCoffee().frappuccinoWithCoffeeBrew();
+                new FrappuccinoWithCoffee().frappuccinoWithCoffeeBrew();
                 break;
             case(5):
-                new creamyFrappuccinoWithoutCoffee().creamyFrappuccinoWithoutCoffee();
+                new CreamyFrappuccinoWithoutCoffee().creamyFrappuccinoWithoutCoffee();
                 break;
             default:
                 System.out.println("Please try again!");;

@@ -1,7 +1,7 @@
-package com.epam.starbucks.coffeeMaker;
+package com.epam.starbucks.coffeemaker;
 import java.util.Scanner;
 
-public class bean {
+public class Bean {
     String espresso = "espresso";
     String blond = "blond";
     String decaf = "decaf";

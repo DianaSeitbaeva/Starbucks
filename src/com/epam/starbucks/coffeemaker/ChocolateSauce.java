@@ -1,7 +1,7 @@
-package com.epam.starbucks.coffeeMaker;
+package com.epam.starbucks.coffeemaker;
 import java.util.Scanner;
 
-public class chocolateSauce {
+public class ChocolateSauce {
     public void chocolateSauceChoose(){
             System.out.println("Do you wanna some chocolate sauce over here?");
             System.out.println("1 - Yes");

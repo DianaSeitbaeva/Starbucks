@@ -1,10 +1,9 @@
-package com.epam.starbucks.coffeeMaker;
-
+package com.epam.starbucks.coffeemaker;
 import java.util.Scanner;
 
-public class frappuccinoWithCoffee {
+public class FrappuccinoWithCoffee {
     public void frappuccinoWithCoffeeBrew(){
-        new bean().beanBrew();
+        new Bean().beanBrew();
         System.out.println("Please choose coffee from menu: ");
         System.out.println("1 - Caramel Frappuccino");
         System.out.println("2 - Classic Frappuccino");
@@ -32,8 +31,8 @@ public class frappuccinoWithCoffee {
             default:
                 System.out.println("Please try again!");
         }
-        new milk().milkChoose();
-        new foam().foamChoose();
-        new chocolateSauce().chocolateSauceChoose();
+        new Milk().milkChoose();
+        new Foam().foamChoose();
+        new ChocolateSauce().chocolateSauceChoose();
     }
 }

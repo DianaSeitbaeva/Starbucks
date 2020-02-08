@@ -1,8 +1,8 @@
-package com.epam.starbucks.coffeeMaker;
+package com.epam.starbucks.coffeemaker;
 
 import java.util.Scanner;
 
-public class foam {
+public class Foam {
     public void foamChoose(){
         System.out.println("Do you wanna some foam coat?");
         System.out.println("1 - Yes");
